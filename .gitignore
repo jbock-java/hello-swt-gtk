@@ -1,0 +1,11 @@
+build
+.idea
+*.iml
+*~
+/dependency-reduced-pom.xml
+.gradle
+/gradlew.bat
+/core/out
+/compiler/out
+/examples/out
+/gradle.properties
