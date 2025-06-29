@@ -15,12 +15,12 @@ java {
 }
 
 application {
-    mainClass = "gg.bockig.HelloWorld"
-    applicationDefaultJvmArgs = if (Os.isFamily(Os.FAMILY_MAC)) {
-      listOf("-XstartOnFirstThread")
-    } else {
-      listOf()
-    }
+  mainClass = "gg.bockig.HelloWorld"
+  applicationDefaultJvmArgs = if (Os.isFamily(Os.FAMILY_MAC)) {
+    listOf("-XstartOnFirstThread")
+  } else {
+    listOf()
+  }
 }
 
 repositories {
